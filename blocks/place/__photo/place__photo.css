@@ -1,0 +1,29 @@
+.place__photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__photo {
+    grid-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__photo {
+    grid-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__photo {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__photo {
+    gap: 32px;
+  }
+}
