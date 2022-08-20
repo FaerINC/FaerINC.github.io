@@ -5,4 +5,5 @@
   justify-content: space-between;
   align-items: flex-end;
   list-style-type: none;
+  gap: 18px;
 }

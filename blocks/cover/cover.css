@@ -4,8 +4,10 @@
   background-size: cover;
   gap: 32px;
   background-image: url(../../images/cover-trains.jpg);
+  object-fit: cover;
   background-repeat: no-repeat;
   width: 100%;
+  background-position: center;
 }
 
 @media screen and (max-width: 1024px) {

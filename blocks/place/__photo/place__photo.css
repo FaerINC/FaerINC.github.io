@@ -1,18 +1,18 @@
 .place__photo {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
+  gap: 40px;
 }
 
 @media screen and (max-width: 1279px) {
   .place__photo {
-    grid-gap: 32px;
+    gap: 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__photo {
-    grid-gap: 28px;
+    gap: 28px;
   }
 }
 
